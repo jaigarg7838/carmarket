@@ -13,7 +13,7 @@ export default function About() {
           Your budget your choice our recommendation
         </Text>
         <Text h3 color="white">
-          Explore the world's of car with us
+          Explore the world&apos;s of car with us
         </Text>
       </Col>
     </Card.Header>
@@ -54,7 +54,7 @@ export default function About() {
                 Car Market
               </Text>
               <Text color="#d1d1d1" size={12}>
-                Don't worry when we are here
+                Don&apos;t worry when we are here
               </Text>
             </Col>
           </Row>
