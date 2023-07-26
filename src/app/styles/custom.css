@@ -1,0 +1,52 @@
+
+.homepage{
+    background-image: url("../images/carBackground5.jpeg");
+    height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+
+.homepage-text{
+    color:WHITE;
+
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+  .navbar {
+     --bs-navbar-padding-x: none !important;
+}
+.Header{
+    background-color: rgba(5, 5, 5, 0.734) !important;
+    color:white !important;
+   position:relative;
+   position:fixed;
+    top:0%;
+}
+
+
+.Header-text{
+    color:white !important;
+    font-size:largeR !important;
+}
+
+.header-position{
+    position:fixed;
+    position: relative;
+    top:0%;
+}
+
+.about{
+     margin-top: 2%;
+}
+
+.footer-specs{
+background-color: black;
+}
