@@ -1,9 +1,10 @@
 import React from 'react'
 import { Card, Grid, Text, Button, Row,Col } from "@nextui-org/react";
 
+
 export default function About() {
   return (
-    <div className="container"> 
+    <div className="container" id='About'> 
       <div className = 'about'>
       
     <Card css={{ w: "100%", h: "400px" }}>

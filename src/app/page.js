@@ -2,15 +2,18 @@
 import Image from 'next/image'
 import  './page.module.css'
 import './styles/custom.css'
-import Navbar from './components/Navbar'
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import { useEffect } from 'react'
-import Homepage from './components/Homepage'
-import About from './components/About'
-import Budget from './components/Budget'
-import Footer from './components/Footer'
+import Homepage from './components/Homepage/Homepage'
+import About from './components/About/About'
+import Budget from './components/Budget/Budget'
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Electric from './components/Electric/Electric'
+
+
 
 
 export default function Home() {
@@ -19,13 +22,18 @@ export default function Home() {
     import("bootstrap/dist/js/bootstrap");
 },[])
 
+
+
   return (
     <main >
-    <Navbar />
+<Navbar/>
     <Homepage/>
     <About />
     <Budget/>
+    <Electric/>
     <Footer/>
     </main>
+    
   )
+  
 }

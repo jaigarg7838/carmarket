@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer(){
     return(
-        <div className='footer-specs about'>
+        <div className='footer-specs about' id='Footer'>
   
 <div class="d-flex flex-column h-100">
 
