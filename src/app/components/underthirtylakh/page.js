@@ -4,6 +4,7 @@ import './ten.css'
 import dataTen from './data'
 import Navbar from '../Navbar/Navbar'
 import { Button } from '@nextui-org/react'
+import Footer from '../Footer/Footer'
 
 
 
@@ -78,12 +79,11 @@ import { Button } from '@nextui-org/react'
       
     <Navbar/>
 <div class='drop-ss'>
-  <h2>Sort:</h2>
-  <Button onClick={sortDataByPriceLowToHigh}> Price Low to High </Button>
-  <Button onClick={sortDataByPriceHighToLow}> Price High to Low </Button>
-  <Button onClick={sortMileageByHighToLow}> More Average </Button>
-  <Button onClick={sortFuelByHighToLow}> Fuel Tank Capacity </Button>
-  <Button onClick={sortEngineByHighToLow}> More Engine Power </Button>
+  <Button onClick={sortDataByPriceLowToHigh} shadow color="gradient"> Price Low to High </Button>
+  <Button onClick={sortDataByPriceHighToLow} shadow color="gradient"> Price High to Low </Button>
+  <Button onClick={sortMileageByHighToLow} shadow color="gradient"> More Average </Button>
+  <Button onClick={sortFuelByHighToLow} shadow color="gradient"> Fuel Tank Capacity </Button>
+  <Button onClick={sortEngineByHighToLow} shadow color="gradient"> More Engine Power </Button>
 </div>
 <ul class="cards">
   {data.map((item,index)=>(
@@ -108,6 +108,7 @@ import { Button } from '@nextui-org/react'
  
 
 </ul>
+<Footer/>
 
 <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.min.js"

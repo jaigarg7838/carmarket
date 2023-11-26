@@ -31,6 +31,12 @@ const Navbar = () => {
             <Link href="/#About">About</Link>
           </li>
           <li>
+            <Link href="/#Budget">Cars</Link>
+          </li>
+          <li>
+            <Link href="/#Electric">Electric Car</Link>
+          </li>
+          <li>
             <Link href="/#Footer">Contact</Link>
           </li>
         </ul>

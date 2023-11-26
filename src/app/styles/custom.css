@@ -9,7 +9,19 @@
   background-size: cover;
   
   }
+#About{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+#Budget{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.link-color{
+  color:white;
+  text-decoration: none;
+}
 
 .homepage-text{
     color:WHITE;

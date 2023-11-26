@@ -38,10 +38,8 @@ export default function Budget() {
         
       ];
   return (
-    <div className='container' id='Budget'>
-        <h1 className='about'>
-            Choose Budget for your cars
-        </h1>
+    <div className='container Budget' id='Budget'>
+       
         {/* <Grid.Container gap={2} justify="center">
       <Grid xs={12} sm={6}>
         <Card1 />

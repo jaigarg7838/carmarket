@@ -9,7 +9,7 @@ export default function Electric() {
 
   return (
     <>
-    <div className='electric-home'>
+    <div className='electric-home' id="Electric">
         {/* <div>
             <h1>Wanna try Electric</h1>
             <h3>Let's Explore the Electric car with us</h3>
@@ -25,7 +25,7 @@ export default function Electric() {
         />
         <figcaption>
           <blockquote>
-            Wanna Try Electric.
+            Wanna Go Electric.
           </blockquote>
           <cite
             >Let's Explore the world of Electric Car with Us.
