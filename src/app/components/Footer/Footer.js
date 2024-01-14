@@ -63,6 +63,8 @@ export default function Footer(){
                     <h5 class="text-white mb-3 text-decoration-underline">Contact Us</h5>
                     <p class="small text-white">Email id:- jaigarg7838@gmail.com</p>
                     <p class="small text-white">LinkedIn:- https://www.linkedin.com/in/jai-garg-795173218/</p>
+                    <p class="small text-white">Email id:- aman55garg@gmail.com</p>
+                  
                 </div>
             </div>
         </div>

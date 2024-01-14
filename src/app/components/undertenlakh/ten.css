@@ -11,12 +11,19 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #fef8f8;
 }
+.color-gradience{
+  background: linear-gradient(to right, black, grey) !important;
+  box-shadow: -4px 4px 6px rgba(255, 255, 255, 0.473) !important; 
+
+}
 
 .drop-ss{
   display: flex;
-  
+  background-color: #212121;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 36px !important;
 }
 
 .cards {
@@ -124,4 +131,9 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
-}    
+} 
+
+.gradie {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+}

@@ -96,7 +96,7 @@ const dataTen = [
       },
       {
         title:"TATA SAFARI",
-        img: "https://cars.tatamotors.com/images/safari/iconic-design-2023.jpg",
+        img: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Safari/11265/1697533880503/front-left-side-47.jpg?imwidth=420&impolicy=resize",
         price: "Rs.16.19 Lakh - Rs. 27.34 Lakh",
         mileage:"16.30 kmpl",
         engine:"1956cc",

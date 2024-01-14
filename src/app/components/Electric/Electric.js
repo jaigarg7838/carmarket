@@ -31,7 +31,7 @@ export default function Electric() {
             >Let's Explore the world of Electric Car with Us.
             </cite>
             <cite>
-                <Button>
+                <Button shadow color="gradient">
                     <Link href="/components/electricdata"> Explore</Link></Button>
             </cite>
           <p class="credit" >

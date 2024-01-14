@@ -83,11 +83,11 @@ import Footer from '../Footer/Footer'
     <Navbar/>
 <div class='drop-ss'>
   
-  <Button onClick={sortDataByPriceLowToHigh} shadow color="gradient"> Price Low to High </Button>
-  <Button onClick={sortDataByPriceHighToLow} shadow color="gradient"> Price High to Low </Button>
-  <Button onClick={sortMileageByHighToLow} shadow color="gradient"> More Range </Button>
+  <Button onClick={sortDataByPriceLowToHigh} className='color-gradience'> Price Low to High </Button>
+  <Button onClick={sortDataByPriceHighToLow} className='color-gradience'> Price High to Low </Button>
+  <Button onClick={sortMileageByHighToLow} className='color-gradience'> More Range </Button>
   {/* <Button onClick={sortFuelByHighToLow}> Fuel Tank Capacity </Button> */}
-  <Button onClick={sortEngineByHighToLow} shadow color="gradient"> More Engine Power </Button>
+  <Button onClick={sortEngineByHighToLow} className='color-gradience'> More Engine Power </Button>
 </div>
 <ul class="cards">
   {data.map((item,index)=>(

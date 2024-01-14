@@ -87,7 +87,7 @@ const dataTen = [
       },
       {
         title:"TATA NEXON",
-      img: "https://cars.tatamotors.com/images/nexon-2023/features-images/head-turner-design.jpg",
+      img: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Nexon/11104/1697698470038/front-left-side-47.jpg",
       price: "Rs. 8.10 Lakh - Rs. 15.50 Lakh",
       mileage:"21.5 kmpl",
       engine:"1199cc - 1499cc",
