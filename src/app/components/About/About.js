@@ -20,7 +20,7 @@ export default function About() {
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://cutewallpaper.org/22/black-and-white-cars-wallpapers/2338410593.jpg"
+        src="https://wallpapercave.com/wp/wp5201595.jpg"
         
         objectFit="cover"
         width="100%"
